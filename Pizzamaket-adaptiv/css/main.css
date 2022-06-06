@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    font-family: MullerRegular, sans-serif;
+}
+@font-face {
+    font-family: MullerBlack;
+    src: url("../fons/MullerBlack.ttf");
+}
+@font-face {
+    font-family: MullerBold;
+    src: url("../fons/MullerBold.ttf");
+}
+@font-face {
+    font-family: MullerExtraBold;
+    src: url("../fons/MullerExtraBold.ttf");
+}
+@font-face {
+    font-family: MullerRegular;
+    src: url("../fons/MullerRegular.ttf");
+}
+#header {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo span {
+    font-size: 24px;
+    font-family: "MullerBlack", sans-serif;
+    color: rgb(255, 196, 104);
+    line-height: 1.2;
+    width: 85px;
+    margin-left: 8px;
+    text-transform: uppercase;
+}
+#menu {
+    margin: 0 261px 0 248px;
+    width: 490px;
+    display: flex;
+    justify-content: space-between;
+}
+#menu a.menu-item {
+    font-size: 16px;
+    color: rgb(164, 107, 0);
+    text-decoration: none;
+}
+#main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-info {
+    max-width: 622px;
+}
+
+#main-info h1 {
+    font-size: 45px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(185, 145, 80);
+    font-weight: bold;
+    line-height: 1.222;
+    margin: 0;
+}
+#main-info h1 span{
+   color: #ffaf18;
+}
+#main-advantages {
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.advantage {
+    max-width: 292px;
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+.advantage .advantage-text {
+    margin-left: 16px;
+}
+.advantage .advantage-title {
+    font-size: 16px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: rgb(255, 175, 24);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.advantage .advantage-description {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1;
+    margin-top: 10px;
+}
+.btn {
+    background-color: rgb(255, 175, 24);
+    text-align: center;
+    font-size: 16px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    line-height: 3.438;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#main-action .btn {
+    width: 224px;
+    display: inline-block;
+}
+.hvr-float {
+    width: 224px;
+}
+#main-action {
+    margin-top: 60px;
+}
+
+
+#products-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 161px;
+}
+#products-title {
+    font-size: 35px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(189, 152, 92);
+    line-height: 1.571;
+    text-align: center;
+}
+#products-items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 3px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+    width: 282px;
+    padding: 27px 20px 15px 20px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.product .product-title {
+    font-size: 18px;
+    font-family: "MullerBold", sans-serif;
+    color: rgb(56, 36, 0);
+    line-height: 3.056;
+}
+.product .product-image {
+    height: 155px;
+}
+.product .product-text {
+    font-size: 14px;
+    font-family: "MullerRegular", sans-serif;
+    color: rgb(24, 26, 26);
+    line-height: 1.286;
+    height: 49px;
+    margin-top: 17px;
+}
+.product .product-button.btn  {
+    border: 0;
+    outline: 0;
+    margin-top: 15px;
+    width: 100%;
+}
+#order {
+    overflow: hidden;
+}
+#order-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 216px 0 115px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+#order-text {
+    max-width: 384px;
+}
+#order-title {
+    font-size: 35px;
+    font-family: "MullerExtraBold", sans-serif;
+    color: #b99150;
+    line-height: 1.286;
+}
+#order-title span {
+    color: #ffaf18;
+}
+#order-message {
+    font-size: 16px;
+    color: rgb(185, 145, 80);
+    line-height: 1.5;
+    margin-top: 65px;
+}
+#order-form {
+    max-width: 330px;
+    position: relative;
+
+}
+#order-form input {
+    border-width: 1px;
+    border-color: rgb(185, 145, 80);
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    padding: 23px;
+    font-size: 18px;
+    outline: 0;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+
+}
+::placeholder {
+    color: rgb(203, 168, 110);
+}
+#order-form button.btn {
+    box-sizing: border-box;
+    width: 100%;
+    outline: 0;
+    border: 0;
+}
+
+.error-input-name, .error-input-address, .error-input-phone{
+    display: none;
+    color: red;
+    font-size: 15px;
+}
+.error-input-name {
+    position: absolute;
+    top: -18px;
+}
+.error-input-address {
+    position: absolute;
+    top: 75px;
+}
+.error-input-phone {
+    position: absolute;
+    bottom: 149px;
+}
+
+#order-image {
+    width: 282px;
+    position: relative;
+}
+#order-image img {
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+#footer {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 13.8px 1.2px rgba(152, 152, 152, 0.2);
+}
+#footer-container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+}
+#right {
+    font-size: 12px;
+    color: rgb(186, 179, 179);
+    margin-left: 358px;
+}
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
+.popup-fade {
+    display: none;
+}
+.popup {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
+    width: 360px;
+    margin-left: -200px;
+    background: #fff;
+    border: 1px solid orange;
+    border-radius: 4px;
+    z-index: 99999;
+    opacity: 1;
+}
+.popup-fade:before {
+    content: '';
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+}
+
+
+
+#loader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: none;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.6);
+}
+.lds-spinner {
+    color: #75510f;
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-spinner div {
+    transform-origin: 40px 40px;
+    animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 37px;
+    width: 6px;
+    height: 18px;
+    border-radius: 20%;
+    background: #e7a270;
+}
+.lds-spinner div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+}
+@keyframes lds-spinner {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
